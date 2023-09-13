@@ -3,7 +3,7 @@
 """
 Created on Wed Dec  1 15:34:22 2021
 
-@author: marco
+@author: marcoobergamin
 """
 
 # 1 - Import data
