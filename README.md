@@ -7,20 +7,24 @@ The cost spent in electricity: if the natural resources' price rises, the profit
 The difficulty of mining. For example, Bitcoin blockchain wants to create a block every 10 minutes on average. When there are more miners this time becomes shorter and hence the difficulty level is raised, conversely when miners leave the network, this delay increases and hence the difficulty level is decreased. 
 We will study the interests and the profits of the miners in Bitcoin  (BTC) blockchain.
 
+__________________________________________________________
+
 [Part 1 Market Capitalization]
-In the first part of the project you have to study the market capitalization over the last three years of Bitcoin. Without market capitalization, the BTC would not have values and hence the miners wouldn't receive a concrete reward. Thus the blockchain wouldn't work. 
+
+In the first part of the project we to study the market capitalization over the last three years of Bitcoin. Without market capitalization, the BTC would not have values and hence the miners wouldn't receive a concrete reward. Thus the blockchain wouldn't work. 
 
 The file markt-cap.json contains the market capitalization of BTC over the last three years.  The main data you will be interested into is of dictionaries containing the pairs 'x': value, 'y':value that represent the coordinates of the point meaning that at the time corresponding to key 'x' the market capitalization was the value associated with 'y'. 
-
-How is time expressed? Time is expressed in a format called Unix Timestamp. You may print the unix timestamp into a readable form following this guide. 
 
 Steps:
 
 1. Plot the market capitalization placing the time on the x-axis and the values on y-axis
-2. Smooth the curve: in order to understand the behavior of the value, we want to remove the noisy fluctuations. We proceed as follows: for each time point x compute the average of the market value in the interval (x-15 days, x+15 days). For the initial/final points that do not have data (on the left and on the right, respectively), you may use only the available data. Plot the curve that you obtain.
+2. Smooth the curve: in order to understand the behavior of the value, we want to remove the noisy fluctuations. We proceed as follows: for each time point x compute the average of the market value in the interval (x-15 days, x+15 days). For the initial/final points that do not have data (on the left and on the right, respectively), we can use only the available data. Plot the curve that we obtain.
 3. Discuss the data. Read and interpret the data, convince the reader about your considerations on the capitalization. 
 
+____________________________________________________________
+
 [Part 2 Miners' Rewards] 
+
 The file called miners-revenue.json contains a time serie of the revenue paid by the BTC blockchain to miners in USD (converted according to the value of BTC of the moment in which the block was mined). File called difficulty.json contains the blockchain difficulty during the same time interval. 
 
 Steps:
